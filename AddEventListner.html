@@ -1,0 +1,26 @@
+
+// add event listener function - it is used to add an event listener to an element
+// add event listener function is a method of window object.
+// add event listener function takes three parameters - 1. event name 2. function to be executed 3. boolean value
+// add event listener function returns nothing
+// Example 1
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <p id="demo"></p>
+   <script>
+     window.addEventListener("click", myFunction,true);
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+
+   </script> 
+</body>
+</html>
